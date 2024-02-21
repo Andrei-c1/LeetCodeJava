@@ -2,6 +2,7 @@ package Problems.Trees;
 
 public class BalanceTree {
     public boolean isBalanced(TreeNode root) {
+        Thread t1 = new Thread();
         if(root == null)
             return true;
         int right = dfs(root.right);
