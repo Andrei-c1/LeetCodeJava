@@ -3,6 +3,7 @@ package Problems.HeapPriorityQueue;
 import java.util.PriorityQueue;
 
 public class TwoStones {
+    //for the lols
     class Solution {
 
         public int lastStoneWeight(int[] stones) {
